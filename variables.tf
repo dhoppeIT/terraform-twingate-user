@@ -25,6 +25,11 @@ variable "role" {
   type        = string
   default     = null
   description = "Determines the User's role"
+
+  validation {
+    condition     = var.role == null || contains(["ADMIN", "DEVOPS", "SUPPORT", "MEMBER", "ACCESS_REVIEWER"], var.role)
+    error_message = "The role must be one of: ADMIN, DEVOPS, SUPPORT, MEMBER, ACCESS_REVIEWER."
+  }
 }
 
 variable "send_invite" {
