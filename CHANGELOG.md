@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://gitlab.com/terraform-child-modules-48151/terraform-twingate-user/compare/v1.1.0...v1.2.0) (2026-09-01)
+
+### Features
+
+* **terraform:** Upgrade to latest available version of Terraform provider ([bb7eeae](https://gitlab.com/terraform-child-modules-48151/terraform-twingate-user/commit/bb7eeae1228aad43f649067dd7bf60efaebc7876))
+
 ## [1.1.0](https://gitlab.com/terraform-child-modules-48151/terraform-twingate-user/compare/v1.0.0...v1.1.0) (2026-02-24)
 
 ### Features
