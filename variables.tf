@@ -31,9 +31,3 @@ variable "role" {
     error_message = "The role must be one of: ADMIN, DEVOPS, SUPPORT, MEMBER, ACCESS_REVIEWER."
   }
 }
-
-variable "send_invite" {
-  type        = bool
-  default     = true
-  description = "Determines whether to send an email invitation to the User"
-}
